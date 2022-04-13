@@ -1,0 +1,138 @@
+* {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+   }
+
+body {
+background-image: url(/backgrounds/blobs.svg);
+}
+
+.container {
+    max-width: 1400px;
+    background-color: #FFF;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px, 50px;
+    display: flex;
+}
+
+.introduction {
+    flex: 8.7;
+    order: 1;
+    padding: 40px 100px;
+}
+
+.gallery {
+    flex: 20;
+    order: 2;
+    padding: 40px 100px 40px 0px;
+}
+
+.name-header {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 200%;
+    color: #12355B;
+}
+
+h2 {
+    padding-top: 1em;
+    border-top: 0.15em solid black;
+    font-size: 100%;
+    text-decoration: solid;
+    color: #F4B942;
+}
+
+h3 {
+    padding-top: 1em;
+    font-size: 100%;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 25%;
+}
+
+.typewriter{
+    overflow: hidden;
+    width: 300px;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0, auto;
+    padding: 0;
+    letter-spacing: .15em;
+    animation: 
+    typing 1s steps(85, end),
+    blink-caret 1s step-end infinite;
+}
+
+.typewriter-text {
+    margin: 0;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0px }
+    to { width: 300px }
+  }
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-right-color: transparent }
+50% { border-right-color: orange; }
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+}
+
+.nav-button {
+    float: right;
+    display: inline;
+    border-radius: 20px;
+    padding: 8px;
+    transition: transform 200ms ease-out;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: #94B0DA;
+    transform: translateY(-0.25em);
+}
+
+.circle-background {
+    height: 25px;
+    width: 25px;
+    background-color: #4E6E5D;
+    border-radius: 50%;
+    display: inline;
+}
+
+.button-menu {
+    height: 60px;
+    max-width: 700px;
+    margin: 40px auto 40px auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.centered {
+    color: #FFF;
+    font-size: 60px;
+    margin: auto;
+    font-style: bold;
+  }
+
+.contact-me {
+    padding: 0px 20px;
+    background-color: #94B0DA;
+    border-radius: 20px;
+}
