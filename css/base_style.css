@@ -36,6 +36,7 @@ h4 {
     list-style-type: none;
     margin: 0;
     padding: 15px;
+    float: right;
 }
 
 .nav-button {

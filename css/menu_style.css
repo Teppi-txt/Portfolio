@@ -1,5 +1,5 @@
 .container {
-    max-width: 1400px;
+    min-width: 1400px;
     min-height: 700px;
     margin: 40px auto 0 auto;
     line-height: 1.65;

@@ -1,6 +1,6 @@
 .container {
-    max-width: 1200px;
-    min-height: 700px;
+    width: 1200px;
+    max-height: 700px;
     margin: 40px auto 0 auto;
     line-height: 1.65;
     padding: 20px, 50px;
@@ -9,18 +9,35 @@
 }
 
 .introduction {
-    flex: 8.6;
+    flex: 4;
     order: 2;
     padding: 40px 20px;
     align-items: center;
 }
 
 .gallery {
-    flex: 16;
+    flex: 6;
+    width: 600px;
     order: 1;
     padding: 40px 20px;
+    align-items: center;
 }
 
+.crop-rect {
+    width: 590px;
+    height: 290px;
+    object-fit: cover;
+    border: 5px solid black;
+    margin: 0;
+}
+
+.crop-square {
+    margin: 0;
+    width: 289px;
+    height: 289px;
+    object-fit: cover;
+    border: 5px solid black;
+}
 
 .typewriter{
     overflow: hidden;
