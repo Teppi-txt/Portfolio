@@ -63,7 +63,7 @@ h2 {
 h3 {
     padding-top: 0em;
     font-size: 100%;
-    color: white;
+    color: orange;
     font-style: italic;
 }
 
@@ -133,16 +133,16 @@ a:link {
 }
 
 .button-menu {
-    height: 60px;
+    height: 100%;
     max-width: 700px;
-    margin: 40px auto 40px auto;
+    margin: 0px auto 0px auto;
     display: flex;
 }
 
 .centered {
     color: #FFF;
     font-size: 60px;
-    margin: auto;
+    margin: 5px auto;
     font-style: bold;
   }
 
@@ -164,4 +164,57 @@ vertical-align: middle;
 width: 100%;
 border-radius: 2%;
 }
+
+
+#socials-bar {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    list-style-type: none;
+    padding: 15px;
+}
+
+.social-button {
+    display: inline;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+/* social medias */
+.fa {
+    scale: 2;
+    padding: 5px;
+    font-size: 300px;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: transform 200ms ease-out;
+  }
   
+
+.fa:hover {
+    opacity: 0.7;
+    transform: translateY(-0.25em);
+}
+
+.fa-instagram {
+background: #bb55b6;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-reddit {
+    background: #ff4500;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
