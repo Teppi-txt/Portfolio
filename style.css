@@ -132,7 +132,14 @@ a:link {
   }
 
 .contact-me {
+    color: #FFF;
     padding: 0px 20px;
     background-color: #94B0DA;
     border-radius: 20px;
+    transition: padding 200ms linear
+}
+
+.contact-me:hover {
+    color: #FFF;
+    padding: 0px 40px
 }
