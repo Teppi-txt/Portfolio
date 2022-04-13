@@ -97,7 +97,7 @@ from, to { border-right-color: transparent }
     float: right;
     display: inline;
     border-radius: 20px;
-    padding: 8px;
+    padding: 8px 15px;
     transition: transform 200ms ease-out;
 }
 
