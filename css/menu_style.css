@@ -1,0 +1,52 @@
+.container {
+    max-width: 1400px;
+    min-height: 700px;
+    margin: 40px auto 0 auto;
+    line-height: 1.65;
+    padding: 20px, 50px;
+    display: flex;
+    align-items: center;
+}
+
+.introduction {
+    flex: 8.7;
+    order: 1;
+    padding: 40px 100px;
+    align-items: center;
+}
+
+.gallery {
+    flex: 20;
+    order: 2;
+    padding: 40px 100px 40px 0px;
+}
+
+
+.typewriter{
+    overflow: hidden;
+    width: 300px;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0, auto;
+    padding: 0;
+    letter-spacing: .15em;
+    animation: 
+    typing 1s steps(85, end),
+    blink-caret 1s step-end infinite;
+}
+
+.typewriter-text {
+    margin: 0;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0px }
+    to { width: 300px }
+  }
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-right-color: transparent }
+50% { border-right-color: orange; }
+}
