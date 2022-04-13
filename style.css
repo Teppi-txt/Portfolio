@@ -8,7 +8,7 @@ background-image: url(backgrounds/blobs.svg);
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1400px;
     min-height: 700px;
     margin: 40px auto 0 auto;
     line-height: 1.65;
@@ -20,7 +20,7 @@ background-image: url(backgrounds/blobs.svg);
 .introduction {
     flex: 8.7;
     order: 1;
-    padding: 40px 60px;
+    padding: 40px 100px;
     align-items: center;
 }
 
@@ -162,6 +162,6 @@ a:link {
 .face-shot{
 vertical-align: middle;
 width: 100%;
-border-radius: 25%;
+border-radius: 2%;
 }
   
