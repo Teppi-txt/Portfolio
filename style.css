@@ -163,8 +163,12 @@ a:link {
 vertical-align: middle;
 width: 100%;
 border-radius: 2%;
+transition: transform 200ms ease-in;
 }
 
+.face-shot:hover {
+    transform: scale(1.1);
+}
 
 #socials-bar {
     display: flex;
