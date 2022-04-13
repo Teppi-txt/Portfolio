@@ -9,17 +9,20 @@ background-image: url(/backgrounds/blobs.svg);
 
 .container {
     max-width: 1400px;
+    min-height: 700px;
     background-color: #FFF;
     margin: 40px auto 0 auto;
     line-height: 1.65;
     padding: 20px, 50px;
     display: flex;
+    align-items: center;
 }
 
 .introduction {
     flex: 8.7;
     order: 1;
     padding: 40px 100px;
+    align-items: center;
 }
 
 .gallery {
