@@ -4,7 +4,8 @@
    }
 
 body {
-background-image: url(../backgrounds/menu.svg);
+    background-image: url(../backgrounds/menu.svg);
+    background-size: 110%;
 }
 
 
@@ -47,6 +48,7 @@ h4 {
     transition: transform 200ms ease-out;
 }
 
+
 a:link {
     color: #FFF;
     text-decoration: none;
@@ -59,9 +61,10 @@ a:visited {
 
 .selected > a{
     color: orange;
+    cursor: default;
 }
 
-.nav-button:hover {
+.nav-button:hover:not(.selected) {
     background-color: orange;
     transform: translateY(-0.25em);
 }

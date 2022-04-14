@@ -146,6 +146,8 @@ from, to { border-right-color: transparent }
 }
 
 .btn {
+    width: 80px;
+    height: 80px;
     position: absolute;
     z-index: 200;
 }
@@ -160,7 +162,19 @@ from, to { border-right-color: transparent }
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 15px orange;
+    
 }
+
+.btn .right:hover {
+    transform: translateX(0.4em);
+}
+
+
+.btn .left:hover {
+    transform: translateX(-0.4em);
+}
+
 
 .btn .right::before {
     content: "";
@@ -182,6 +196,7 @@ from, to { border-right-color: transparent }
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 5px 15px orange;
 }
 
 .btn .left::before {
