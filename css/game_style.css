@@ -21,6 +21,8 @@
     order: 1;
     padding: 40px 20px;
     align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .crop-rect {
@@ -81,6 +83,11 @@ from, to { border-right-color: transparent }
     object-fit: cover;
 }
 
+.subtitle > a {
+    padding-left: 5px;
+    color: orange
+}
+
 .gradient {
     position: absolute;
     bottom: 0;
@@ -90,27 +97,99 @@ from, to { border-right-color: transparent }
     height: 50%;
 }
 
+#wiper {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    transition: opacity 300ms ease-in;
+    pointer-events:none;
+}
+
 .subtitle {
     position: absolute;
     bottom: 0;
     color: white;
     padding: 15px;
+    font-size: 125%;
+    display: flex;
+}
+
+#date {
+    margin: 0; 
+    padding-left: 8px; 
+    position:relative;
 }
 
 .description {
-    width: 100%;
+    width: 90%;
     min-height: 250px;
     height: auto;
-    background-color: aliceblue;
-    border-radius: 25px;
+    background-color: rgba(240, 248, 255, 0.4);
+    border-radius: 30px;
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+    display: flex;
+    align-items: center;
+    transform: translateX(5%);
 }
 
 .left-arrow {
-  width: 0; 
-  height: 0; 
-  transform: translateX(-50px);
-  border-top: 15px solid transparent;
-  border-bottom: 15px solid transparent; 
-  
-  border-right:50px solid aliceblue; 
+    position: absolute;
+    width: 0; 
+    height: 0;
+    transform: translateX(-70px);
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+    border-right:70px solid rgba(240, 248, 255, 0.4); 
+}
+
+.btn {
+    position: absolute;
+    z-index: 200;
+}
+
+.btn .right {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn .right::before {
+    content: "";
+    position: absolute;
+    border: 35px solid #fff;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 0px solid transparent;
+    transform: translateX(4px);
+}
+
+.btn .left {
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn .left::before {
+    content: "";
+    position: absolute;
+    border: 35px solid #fff;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 0px solid transparent;
+    transform: translateX(-4px);
 }
