@@ -18,7 +18,7 @@ var game_info_dict = {
     0: ["Boxed In", "March 2nd, 2019", "../imgs/boxed-in", "https://teppi-le.itch.io/boxed-in"],
     1: ["How Fitting", "May 19th, 2020", "../imgs/how-fitting", "https://teppi-le.itch.io/how-fitting"],
     2: ["Off the Cuffs", "June 21st, 2020", "../imgs/off-the-cuffs", "https://teppi-le.itch.io/off-the-cuffs"],
-    3: ["Ultimate Roulette Wheel", "March 31s, 2021", "../imgs/roulette", "https://teppi-le.itch.io/ultimtate-roulette-wheel"],
+    3: ["Ultimate Roulette Wheel", "March 31st, 2021", "../imgs/roulette", "https://teppi-le.itch.io/ultimtate-roulette-wheel"],
     4: ["An original game called Chess™", "December 21st, 2021", "../imgs/chess", "https://teppi-le.itch.io/an-original-game-called-chess"],
 }
 console.log("startup")
